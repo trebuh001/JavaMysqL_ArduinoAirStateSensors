@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "155332282318",
+    "firebase_url": "https://arduinoprojekt2-11d82.firebaseio.com",
+    "project_id": "arduinoprojekt2-11d82",
+    "storage_bucket": "arduinoprojekt2-11d82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155332282318:android:2855751df50b173ef30d9f",
+        "android_client_info": {
+          "package_name": "com.example.arduino_odczyty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155332282318-pfa8o08m9g9isa1ov715588qfsn40eqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arduino_odczyty",
+            "certificate_hash": "722a8fc6aad564eab20fde61c474c2744473df8a"
+          }
+        },
+        {
+          "client_id": "155332282318-qp06636084ms9jd67mthi95dfk28j1cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSmZUyPJJK8cq4Hm6Ev5ZRq70PMs0xLW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155332282318-qp06636084ms9jd67mthi95dfk28j1cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

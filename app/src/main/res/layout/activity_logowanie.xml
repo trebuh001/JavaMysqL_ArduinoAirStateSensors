@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logowanie"
+    android:background="@drawable/tlo_powitania">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/log_tytul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginHorizontal="5dp"
+                android:fontFamily="@font/magnolia_script"
+                android:gravity="center"
+
+                android:text="@string/logowanie"
+                android:textColor="@color/kolor_tytulu"
+                android:textSize="60sp" />
+            <Button
+                android:id="@+id/log_przejdz_do_konta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/przejdz_do_konta"
+                android:background="#FF9800"
+                android:textSize="25sp"
+                android:fontFamily="@font/times"
+                android:onClick="przejdz_do_konta"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/log_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="-30dp"
+                android:textSize="30sp"
+                android:background="#BEF5D5A3"
+                android:hint="@string/podaj_login"
+                android:inputType="text"
+                android:fontFamily="@font/times"/>
+            <EditText
+                android:id="@+id/log_haslo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="30sp"
+                android:background="#BEF5D5A3"
+                android:hint="@string/podaj_haslo"
+                android:layout_marginTop="5dp"
+                android:inputType="textPassword"
+                android:fontFamily="@font/times"/>
+            <Button
+                android:id="@+id/log_zaloguj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/zalogujsie"
+                android:background="#FF9800"
+                android:textSize="25sp"
+                android:fontFamily="@font/times"
+                android:onClick="zaloguj"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Arduino_odczyty</string>
+    <string name="odswiez">refresh</string>
+    <string name="tytul">Arduino readings</string>
+    <string name="aktualne_dane">Current data</string>
+    <string name="zapisz_w_bazie">Save in database</string>
+    <string name="temperatura">Temperature</string>
+    <string name="wilgotnosc">Humidity</string>
+    <string name="cisnienie">Air pressure</string>
+    <string name="szk_gazy">Harmful gases</string>
+    <string name="data">Date</string>
+    <string name="dodaj_komentarz">Add comment</string>
+    <string name="usun_komentarz">Delete comment</string>
+    <string name="edytuj_komentarz">Edit comment</string>
+    <string name="usun_rekord">Delete record</string>
+    <string name="temp">Temp</string>
+    <string name="wilg">Hum</string>
+    <string name="cisn">Pres</string>
+    <string name="lp">NO</string>
+    <string name="dane_mlodsze_od_daty">Filter data older than chosen date</string>
+    <string name="ustaw_dokladny_czas">Set precise time</string>
+    <string name="zatwierdz_i_ustaw_druga_date">Confirm and set second date</string>
+    <string name="zatwierdz_i_wroc">Confirm and back</string>
+    <string name="przejdz_do_drugiej_daty">Go to the second date</string>
+    <string name="nie_wybrano_zadnej_daty">Not selected any date. Try again</string>
+    <string name="filtruj_starsze_od_daty">Filter data younger than chosen date</string>
+    <string name="zatwierdz_date">Confirm date</string>
+    <string name="odczyt_z_arduino">Readings from Arduino</string>
+    <string name="komentarze">Comments</string>
+    <string name="wykres">Chart</string>
+    <string name="logowanie">Log in</string>
+    <string name="przejdz_do_konta">Go to the account</string>
+    <string name="zalogujsie">Sign in</string>
+    <string name="podaj_login">Write login</string>
+    <string name="podaj_haslo">Write password</string>
+    <string name="wyloguj">Log out</string>
+    <string name="dane_z_arduino1">Readings from Arduino</string>
+    <string name="filtruj_dane">Filter data</string>
+    <string name="dopuszczalne_zakresy">acceptable ranges of data</string>
+    <string name="czujniki_toast_temp_wilg_cisn_gazy">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Temperature, humidity, air pressure, harmful gases!</string>
+    <string name="czujniki_toast_temp_wilg_cisn">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Temperature, humidity, air pressure</string>
+    <string name="czujniki_toast_temp_wilg">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Temperature, humidity</string>
+    <string name="czujniki_toast_temp">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Temperature</string>
+    <string name="czujniki_toast_wilg_cisn_gazy">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Humidity, air pressure, harmful gases!</string>
+    <string name="czujniki_toast_cisn_gazy">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Air pressure, harmful gases!</string>
+    <string name="czujniki_toast_gazy">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -harmful gases!</string>
+    <string name="czujniki_toast_wilg_cisn">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Humidity, air pressure!</string>
+    <string name="czujniki_toast_wilg">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Humidity!</string>
+    <string name="czujniki_toast_wilg_gazy">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Humidity, harmful gases!</string>
+    <string name="czujniki_toast_temp_cisn">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Temperature, air pressure!</string>
+    <string name="czujniki_toast_temp_cisn_gazy">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Temperature, air pressure, harmful gases!</string>
+    <string name="czujniki_toast_cisn">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Air pressure!</string>
+    <string name="czujniki_toast_temp_gazy">ATTENTION! SENSORS DETECTED DATA OUTSIDE SET RANGES! -Temperature, harmful gases!</string>
+    <string name="komentarze_dla_danych_z_arduino">Comments for readings in Arduino</string>
+    <string name="komentarz">comment</string>
+    <string name="usun_dane">Delete data</string>
+    <string name="filtrowanie_danych">Filter of data</string>
+    <string name="zakres_czasu">Range of time</string>
+    <string name="wyczysc_daty">Clear dates</string>
+    <string name="wybierz_dane_dla_wykresu">Select data for chart</string>
+    <string name="szkodliwe_gazy">Harmful gases</string>
+    <string name="alarmy_dla_powiadomien">Alerts for notifications</string>
+    <string name="ustaw_zakresy_dla_alarmow">Set ranges for alarms</string>
+
+    <string name="temperatura1">Temperature1</string>
+    <string name="temperatura2">Temperature2</string>
+    <string name="wilgotnosc1">Humidity1</string>
+    <string name="wilgotnosc2">Humidity2</string>
+    <string name="cisnienie1">Air pressure1</string>
+    <string name="cisnienie2">Air pressure2</string>
+    <string name="szk_gazy1">Harmful gases1</string>
+    <string name="szk_gazy2">Harmful gases2</string>
+
+    <string name="bledny_login">Bad log in or password</string>
+    <string name="uzytkownik_zalogowany">Logging succesfully</string>
+
+    <string name="dane_zostaly_zapisane">Data has been saved</string>
+    <string name="rekord_zostal_usuniety">Data record has been deleted</string>
+    <string name="komentarz_usuniety">Comment has been deleted</string>
+    <string name="dane_usuniete">Data has been deleted</string>
+    <string name="komentarz_zapisany">Comment has been saved</string>
+    <string name="komentarz_zedytowany">Comment has been edited</string>
+    <string name="ladowanie">Loading</string>
+    <string name="warunek_trololo">Comment cant be empty and in comment cant be trololo string</string>
+
+    <string name="temp1">Temp1</string>
+    <string name="temp2">Temp2</string>
+    <string name="wilg1">Hum1</string>
+    <string name="wilg2">Hum2</string>
+    <string name="cisn1">Air pres1</string>
+    <string name="cisn2">Air pres2</string>
+    <string name="data1">Date1</string>
+    <string name="data2">Date2</string>
+    <string name="Sortuj_najnizsze">Sort from lowest to highest</string>
+    <string name="Sortuj_najwyzsze">Sort from highest to lowest</string>
+    <string name="zmien_sortowanie">Change kind of sort</string>
+    <string name="zmien_haslo">Change password</string>
+    <string name="podaj_nowe_haslo">Write new password</string>
+    <string name="podaj_stare_haslo">Write old password</string>
+    <string name="domyslne_haslo">Restore default password</string>
+
+    <string name="ustawienia_konta">Account Settings</string>
+
+    <string name="nowe_haslo_toast">Password has been changed</string>
+
+    <string name="domyslne_haslo_toast">Password has been changed to default</string>
+    <string name="bledne_haslo_toast">Old password is incorrect</string>
+    <string name="nowe_haslo_minimum_3_znaki">Password must have minimum three characters</string>
+    <string name="podaj_email">Write email</string>
+    <string name="ustaw_email">Change email</string>
+    <string name="domyslny_email_toast">Email address has been changed</string>
+    <string name="przypomnij_haslo_email">Remind password on email address</string>
+    <string name="email_haslo_wyslano_toast">Instructions how reset password has been send on correct email address</string>
+    <string name="powiadomienie">Arduino readings</string>
+    <string name="srednie_wartosci">Average values:</string>
+    <string name="niepoprawne_logowanie_tytul">BAD LOGIN</string>
+    <string name="niepoprawne_logowanie_opis">BAD LOGIN DATA HAS BEEN WRITEN!</string>
+
+
+</resources>

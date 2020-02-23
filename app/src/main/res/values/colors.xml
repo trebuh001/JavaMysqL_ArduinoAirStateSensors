@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A27430</color>
+    <color name="colorPrimaryDark">#FFC107</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="kolor_tytulu">#6C40B8</color>
+    <color name="tlo_tabeli">#EAF871</color>
+    <color name="tlo_przyciski1">#FF9800</color>
+    <color name="tlo_przyciski2">#D81B60</color>
+    <color name="tlo_et1">#BEF5D5A3</color>
+</resources>

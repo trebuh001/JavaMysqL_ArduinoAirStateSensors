@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/tlo_powitania">
+<RelativeLayout
+
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/tlo_powitania">
+
+   <TextView
+       android:id="@+id/tytul"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:textSize="30sp"
+       android:layout_marginTop="10dp"
+       android:layout_marginHorizontal="5dp"
+       android:text="@string/odczyt_z_arduino"
+       android:textColor="@color/kolor_tytulu"
+       android:fontFamily="@font/magnolia_script"
+       />
+   <LinearLayout
+       android:id="@+id/pasek_dla_logowania"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/tytul"
+       android:layout_marginTop="10dp"
+       android:orientation="horizontal"
+       android:weightSum="2">
+      <TextView
+          android:id="@+id/zalogowany_jako"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/times"
+          android:text=""
+          android:layout_marginLeft="20dp"
+          android:textColor="@color/kolor_tytulu"
+          android:textSize="35sp"
+          android:layout_weight="0.75"/>
+      <Button
+          android:id="@+id/przycisk_do_wylogowania_z_maina"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@id/zalogowany_jako"
+          android:textSize="15sp"
+
+          android:layout_marginRight="20dp"
+          android:text="@string/wyloguj"
+          android:background="#FF9800"
+          android:fontFamily="@font/times"
+          android:onClick="wyloguj"
+          android:textStyle="bold"
+          android:layout_weight="1.25"
+          />
+   </LinearLayout>
+
+   <Button
+       android:id="@+id/przycisk_Dane_z_arduino1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:layout_marginHorizontal="20dp"
+       android:text="@string/dane_z_arduino1"
+       android:background="#FF9800"
+       android:layout_below="@id/pasek_dla_logowania"
+       android:layout_marginTop="20dp"
+       android:onClick="arduino1"
+       android:textStyle="bold"
+       android:fontFamily="@font/times" />
+
+
+
+
+   <Button
+       android:id="@+id/przycisk_Logowanie"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:layout_marginHorizontal="20dp"
+       android:text="@string/logowanie"
+       android:background="#FF9800"
+       android:layout_below="@id/pasek_dla_logowania"
+       android:layout_marginTop="20dp"
+       android:onClick="logowanie"
+       android:fontFamily="@font/times"
+       android:textStyle="bold"/>
+
+
+   <Button
+       android:id="@+id/przycisk_powiadomienia"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:layout_marginHorizontal="20dp"
+       android:text="@string/aktualne_dane"
+       android:background="#FF9800"
+       android:layout_below="@id/przycisk_Dane_z_arduino1"
+       android:layout_marginTop="30dp"
+       android:onClick="powiadomienie"
+       android:fontFamily="@font/times"
+       android:textStyle="bold"/>
+
+   <Button
+       android:id="@+id/przycisk_Sortuj"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:layout_marginHorizontal="20dp"
+       android:text="@string/filtruj_dane"
+       android:background="#FF9800"
+       android:layout_below="@id/przycisk_powiadomienia"
+       android:layout_marginTop="30dp"
+       android:onClick="sortuj"
+       android:fontFamily="@font/times"
+       android:textStyle="bold"/>
+   <Button
+       android:id="@+id/przycisk_zakresy"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:layout_marginHorizontal="25dp"
+       android:text="@string/dopuszczalne_zakresy"
+       android:paddingHorizontal="3dp"
+       android:background="#FF9800"
+       android:layout_below="@id/przycisk_Sortuj"
+       android:layout_marginTop="30dp"
+       android:onClick="zakresy_powiadomienia"
+       android:fontFamily="@font/times"
+       android:textStyle="bold"/>
+
+
+</RelativeLayout>
+</ScrollView>

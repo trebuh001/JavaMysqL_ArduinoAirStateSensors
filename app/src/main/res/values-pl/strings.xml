@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arduino_odczyty</string>
+    <string name="odswiez">odśwież</string>
+    <string name="tytul">Arduino odczyty</string>
+    <string name="aktualne_dane">Aktualne dane</string>
+    <string name="zapisz_w_bazie">Zapisz w bazie</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="wilgotnosc">Wilgotność</string>
+    <string name="cisnienie">Ciśnienie</string>
+    <string name="szk_gazy">Szk. gazy</string>
+    <string name="data">Data</string>
+    <string name="dodaj_komentarz">Dodaj komentarz</string>
+    <string name="usun_komentarz">Usuń komentarz</string>
+    <string name="edytuj_komentarz">Edytuj komentarz</string>
+    <string name="usun_rekord">Usuń rekord</string>
+    <string name="temp">Temp</string>
+    <string name="wilg">Wilg</string>
+    <string name="cisn">Ciśn</string>
+    <string name="lp">LP</string>
+    <string name="dane_mlodsze_od_daty">Filtruj dane młodsze od wybranej daty</string>
+    <string name="ustaw_dokladny_czas">Ustaw dokładny Czas</string>
+    <string name="zatwierdz_i_ustaw_druga_date">Zatwierdź i ustaw drugą datę"</string>
+    <string name="zatwierdz_i_wroc">Zatwierdź i wróć</string>
+    <string name="przejdz_do_drugiej_daty">Przejdź do drugiej daty</string>
+    <string name="nie_wybrano_zadnej_daty">Nie wybrano żadnej daty. Spróbuj ponownie</string>
+    <string name="filtruj_starsze_od_daty">Filtruj dane starsze od wybranej daty</string>
+    <string name="zatwierdz_date">Zatwierdź datę</string>
+    <string name="odczyt_z_arduino">Odczyty z układu Arduino</string>
+    <string name="komentarze">Komentarze</string>
+    <string name="wykres">Wykres</string>
+    <string name="logowanie">Logowanie</string>
+    <string name="przejdz_do_konta">Przejdź do konta</string>
+    <string name="zalogujsie">Zaloguj się</string>
+    <string name="podaj_login">Podaj login</string>
+    <string name="podaj_haslo">Podaj haslo</string>
+    <string name="wyloguj">Wyloguj</string>
+    <string name="dane_z_arduino1">Dane z arduino</string>
+    <string name="filtruj_dane">Filtruj dane</string>
+    <string name="dopuszczalne_zakresy">Dopuszczalne zakresy danych</string>
+    <string name="czujniki_toast_temp_wilg_cisn_gazy">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Temperatura, wilgotność, ciśnienie, Szkodliwe gazy!</string>
+    <string name="czujniki_toast_temp_wilg_cisn">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Temperatura, wilgotność, ciśnienie!</string>
+    <string name="czujniki_toast_temp_wilg">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Temperatura, wilgotność</string>
+    <string name="czujniki_toast_temp">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Temperatura!</string>
+    <string name="czujniki_toast_wilg_cisn_gazy">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Wilgotność, ciśnienie, Szkodliwe gazy!</string>
+    <string name="czujniki_toast_cisn_gazy">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Ciśnienie, Szkodliwe gazy!</string>
+    <string name="czujniki_toast_gazy">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Szkodliwe gazy!</string>
+    <string name="czujniki_toast_wilg_cisn">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Wilgotność, ciśnienie!</string>
+    <string name="czujniki_toast_wilg">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Wilgotność!</string>
+    <string name="czujniki_toast_wilg_gazy">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Wilgotność, szkodliwe gazy!</string>
+    <string name="czujniki_toast_temp_cisn">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Temperatura, ciśnienie!</string>
+    <string name="czujniki_toast_temp_cisn_gazy">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Temperatura, ciśnienie, szkodliwe gazy!</string>
+    <string name="czujniki_toast_cisn">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Ciśnienie!</string>
+    <string name="czujniki_toast_temp_gazy">UWAGA! CZUJNIKI WYKRYŁY DANE SPOZA USTAWIONYCH ZAKRESÓW! -Temperatura, szkodliwe gazy!</string>
+    <string name="komentarze_dla_danych_z_arduino">Komentarze dla danych z układu Arduino</string>
+    <string name="komentarz">komentarz</string>
+    <string name="usun_dane">Usuń dane</string>
+    <string name="filtrowanie_danych">Filtrowanie danych</string>
+    <string name="zakres_czasu">Zakres czasu</string>
+    <string name="wyczysc_daty">Wyczyść daty</string>
+    <string name="wybierz_dane_dla_wykresu">Wybierz dane dla wykresu</string>
+    <string name="szkodliwe_gazy">Szkodliwe gazy</string>
+    <string name="alarmy_dla_powiadomien">Alarmy dla powiadomień</string>
+    <string name="ustaw_zakresy_dla_alarmow">Ustaw zakresy dla alarmów</string>
+
+    <string name="temperatura1">Temperatura1</string>
+    <string name="temperatura2">Temperatura2</string>
+    <string name="wilgotnosc1">Wilgotność1</string>
+    <string name="wilgotnosc2">Wilgotność2</string>
+    <string name="cisnienie1">Ciśnienie1</string>
+    <string name="cisnienie2">Ciśnienie2</string>
+    <string name="szk_gazy1">Szk. gazy1</string>
+    <string name="szk_gazy2">Szk. gazy2</string>
+
+    <string name="bledny_login">Błędny login lub hasło</string>
+    <string name="uzytkownik_zalogowany">Użytkownik zalogowany</string>
+
+    <string name="dane_zostaly_zapisane">Dane zostały zapisane</string>
+    <string name="rekord_zostal_usuniety">Rekord  danych został usunięty</string>
+    <string name="komentarz_usuniety">Komentarz został usunięty</string>
+    <string name="dane_usuniete">Dane zostały usunięte</string>
+    <string name="komentarz_zapisany">Komentarz został zapisany</string>
+    <string name="komentarz_zedytowany">Komentarz został zedytowany</string>
+    <string name="ladowanie">Wczytywanie</string>
+    <string name="warunek_trololo">Aby dodać komentarz, nie może on być pusty oraz nie może zawierać ciągu znaków "trololo"</string>
+
+    <string name="temp1">Temp1</string>
+    <string name="temp2">Temp2</string>
+    <string name="wilg1">Wilg1</string>
+    <string name="wilg2">Wilg2</string>
+    <string name="cisn1">Ciśn1</string>
+    <string name="cisn2">Ciśn2</string>
+    <string name="data1">Data1</string>
+    <string name="data2">Data2</string>
+    <string name="Sortuj_najnizsze">Sortuj od najniższej do najwyższej</string>
+    <string name="Sortuj_najwyzsze">Sortuj od najwyższej do najniższej</string>
+    <string name="zmien_sortowanie">Zmień sposób sortowanie</string>
+    <string name="zmien_haslo">Zmiana hasła</string>
+    <string name="podaj_nowe_haslo">Podaj nowe hasło</string>
+    <string name="podaj_stare_haslo">Podaj stare hasło</string>
+    <string name="domyslne_haslo">Przywróć domyślne hasło</string>
+    <string name="ustawienia_konta">Ustawienia konta</string>
+    <string name="nowe_haslo_toast">Hasło zostało zmienione</string>
+
+    <string name="domyslne_haslo_toast">Hasło zostało zmienione na domyślne</string>
+    <string name="bledne_haslo_toast">Stare hasło jest błędne</string>
+
+    <string name="nowe_haslo_minimum_3_znaki">Hasło musi zawierać minimum trzy znaki</string>
+    <string name="podaj_email">Podaj email</string>
+    <string name="ustaw_email">Zmień email</string>
+    <string name="domyslny_email_toast">Adres email został zmieniony</string>
+    <string name="przypomnij_haslo_email">Przypomnij hasło na adres email</string>
+    <string name="email_haslo_wyslano_toast">Instrukcja jak zresetować hasło została wysłana na odpowiedni adres email</string>
+    <string name="powiadomienie">Arduino odczyty</string>
+    <string name="srednie_wartosci">Średnie wartości:</string>
+    <string name="niepoprawne_logowanie_tytul">NIEPOPRAWNE LOGOWANIE</string>
+    <string name="niepoprawne_logowanie_opis">Zostały podane niepoprawne dane logowania!</string>
+
+
+</resources>

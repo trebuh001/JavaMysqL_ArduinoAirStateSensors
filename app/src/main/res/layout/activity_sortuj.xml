@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sortuj"
+    android:background="@drawable/tlo_powitania">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo_powitania">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/filtrowanie_danych"
+        android:textColor="@color/kolor_tytulu"
+        android:fontFamily="@font/magnolia_script"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/zakres_czasu"
+            android:background="#FF9800"
+            android:textSize="25sp"
+            android:fontFamily="@font/times"
+            android:onClick="zakres_czasu"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp"
+            android:weightSum="2">
+            <TextView
+                android:id="@+id/sortuj_data_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="0dp"
+                android:textSize="15sp"
+                android:background="#BEF5D5A3"
+
+
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:text=""
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.2" />
+            <TextView
+                android:id="@+id/sortuj_data_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0dp"
+                android:textSize="15sp"
+                android:background="#BEF5D5A3"
+
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/wyczysc_daty"
+            android:background="#FF9800"
+            android:textSize="25sp"
+            android:fontFamily="@font/times"
+            android:onClick="wyczysc_daty"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/sortuj_temp_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/temperatura1"
+                android:layout_marginLeft="0dp"
+                android:textSize="20sp"
+                android:background="#BEF5D5A3"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:text=""
+
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.2" />
+            <EditText
+                android:id="@+id/sortuj_temp_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0dp"
+                android:textSize="20sp"
+                android:background="#BEF5D5A3"
+                android:hint="@string/temperatura2"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/sortuj_wilg_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/wilgotnosc1"
+                android:layout_marginLeft="0dp"
+                android:textSize="20sp"
+                android:background="#BEF5D5A3"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:text=""
+
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.2" />
+            <EditText
+                android:id="@+id/sortuj_wilg_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0dp"
+                android:textSize="20sp"
+                android:background="#BEF5D5A3"
+                android:hint="@string/wilgotnosc2"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/sortuj_cisnienie_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/cisnienie1"
+                android:layout_marginLeft="0dp"
+                android:textSize="20sp"
+                android:background="#BEF5D5A3"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:text=""
+
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.2" />
+            <EditText
+                android:id="@+id/sortuj_cisnienie_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0dp"
+                android:textSize="20sp"
+                android:inputType="numberDecimal"
+                android:background="#BEF5D5A3"
+                android:hint="@string/cisnienie2"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/sortuj_gazy_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/szk_gazy1"
+                android:layout_marginLeft="0dp"
+                android:textSize="20sp"
+                android:background="#BEF5D5A3"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:text=""
+
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.2" />
+            <EditText
+                android:id="@+id/sortuj_gazy_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0dp"
+                android:textSize="20sp"
+                android:inputType="numberDecimal"
+                android:background="#BEF5D5A3"
+                android:hint="@string/szk_gazy2"
+                android:fontFamily="@font/times"
+                android:layout_weight="0.9"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
+        android:weightSum="2"
+        >
+<TextView
+    android:id="@+id/tekst_sortowanie"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginHorizontal="30dp"
+    android:text="@string/Sortuj_najwyzsze"
+    android:fontFamily="@font/times"
+    android:textSize="15dp"
+    android:layout_weight="1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/zmien_sortowanie"
+            android:background="#FF9800"
+            android:textSize="12sp"
+            android:fontFamily="@font/times"
+            android:onClick="rodzaj_sortowania"
+            android:textStyle="bold"
+
+            android:layout_marginBottom="30dp"
+
+            />
+
+    </LinearLayout>
+        <RadioGroup
+            android:id="@+id/sortowanie_filtr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            >
+
+
+            <RadioButton
+                android:id="@+id/radio_temp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp1"
+                android:textSize="12dp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/radio_wilg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="@string/wilg1"
+
+                />
+                <RadioButton
+                    android:id="@+id/radio_cisn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="@string/cisn1"
+
+                     />
+
+                <RadioButton
+                    android:id="@+id/radiogazy1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/szk_gazy1"
+
+                    android:textSize="12dp"/>
+                <RadioButton
+                    android:id="@+id/radiodata1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data1"
+
+                    android:checked="true"
+                    android:textSize="12dp"/>
+
+        </RadioGroup>
+        <RadioGroup
+            android:id="@+id/sortowanie_filtr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:orientation="horizontal"
+            >
+                <RadioButton
+                    android:id="@+id/radio_temp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temp2"
+
+                    android:textSize="12dp"
+                     />
+
+                <RadioButton
+                    android:id="@+id/radio_wilg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+
+                    android:text="@string/wilg2" />
+                <RadioButton
+                    android:id="@+id/radio_cisn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="@string/cisn2"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/radiogazy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/szk_gazy2"
+
+                    android:textSize="12dp"/>
+                <RadioButton
+                    android:id="@+id/radiodata2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data2"
+                        android:checked="true"
+                    android:textSize="12dp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/filtruj_dane"
+            android:background="#FF9800"
+            android:textSize="25sp"
+            android:fontFamily="@font/times"
+            android:onClick="sortowanie"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+
+            />
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
