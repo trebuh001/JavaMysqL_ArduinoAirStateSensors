@@ -108,21 +108,7 @@
         android:onClick="dodaj_komentarz"
         android:textStyle="bold"
         />
-            <Button
-                android:id="@+id/przycisk_usun"
-                android:layout_below="@id/przycisk_dodaj"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
-                android:layout_marginTop="-20dp"
-                android:text="@string/usun_rekord"
-                android:layout_marginBottom="10dp"
-                android:background="@color/tlo_przyciski2"
-                android:textSize="25sp"
-                android:fontFamily="@font/times"
-                android:onClick="usun_rekord"
-                android:textStyle="bold"
-                />
+
 
 
         </RelativeLayout>

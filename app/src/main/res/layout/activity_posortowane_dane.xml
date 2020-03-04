@@ -28,17 +28,7 @@
     android:layout_marginTop="15dp"
     android:weightSum="3">
 
-    <Button
-        android:id="@+id/usun_rekordy"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:text="@string/usun_dane"
-        android:background="@color/tlo_przyciski2"
 
-        android:onClick="usun_dane"
-        android:fontFamily="@font/times"
-        android:layout_weight="0.9"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -54,7 +44,7 @@
 
             android:onClick="odswiez"
             android:fontFamily="@font/times"
-            android:layout_weight="0.9"/>
+            android:layout_weight="1.35"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -69,7 +59,7 @@
         android:background="#FF9800"
         android:onClick="pokaz_graf"
         android:fontFamily="@font/times"
-        android:layout_weight="0.9"/>
+        android:layout_weight="1.35"/>
 </LinearLayout>
     <LinearLayout
         android:id="@+id/srednie_wartosci"

@@ -101,16 +101,7 @@ public class Dodaj_komentarz_arduino1 extends AppCompatActivity {
 
         }
     }
-    public void usun_rekord(View v)
-    {
-        BackgroundWorkerUsunRekord backgroundWorker = new BackgroundWorkerUsunRekord(this);
-        backgroundWorker.execute(typ,shared.getString("data", ""));
-        Intent intent = new Intent(Dodaj_komentarz_arduino1.this, Klikniety_rekord.class);
-        //this.startActivity(new Intent(Twoje_treningi_dodaj.this,MainActivity.class));
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        this.startActivity(intent);
 
-    }
 
     @Override
     public void onBackPressed()
